@@ -1,0 +1,68 @@
+
+.cadastro {
+    height: 100%;
+    width: 100%;
+    background-image: url(../../../assets/img/cadastro_fundo.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro section form {
+    height: 80%;
+    width: 75%;
+    transition: all 0.3s;
+    animation: fadein-transicao 2s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Cinzel', sans-serif;
+}
+.cadastro section form div {
+    width: 50%;
+    margin: 30px 0;
+}
+
+.cadastro section form div label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cadastro section form div input {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: var(--black);
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    border-bottom: var(--black) solid 3px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.cadastro section form button {
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/cadastro_botao.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 32px;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.cadastro section form button:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--main-green);
+    background-image: url(../../../assets/img/entrada_botao_hover.png);
+}
+
+
+.cadastro section form div input::placeholder {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}

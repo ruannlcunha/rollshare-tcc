@@ -1,0 +1,84 @@
+
+.loja {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    overflow: hidden;
+}
+
+.loja .loja-sidebar {
+    height: 100%;
+    width: 25%;
+    background-image: url(../../../assets/img/textura_madeira2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/textura_pedra3.png) 52 round;
+    border-image-width: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 5px 4px 3px;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.loja .loja-sidebar h1 {
+    margin: 10px;
+    color: var(--main-green);
+}
+
+.loja .loja-sidebar ul {
+    list-style: none;
+}
+
+
+.loja .loja-sidebar ul li {
+    margin: 25px;
+    transition: all 0.3s;
+}
+
+.loja .loja-sidebar ul li:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: var(--green);
+}
+
+.loja .loja-sidebar ul .loja-escolhido {
+    color: var(--green);
+}
+
+.loja .loja-sidebar footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loja .loja-sidebar footer img {
+    height: 85%;
+    margin: 0 10px;
+}
+
+
+.loja .loja-opcoes {
+    width: 75%;
+    height: 100%;
+    background-image: url(../../../assets/img/feed_fundo.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.loja .loja-opcoes .loja-vazia {
+    font-size: 28px;
+    color: var(--green);
+    font-family: 'Cinzel', sans-serif;
+    text-shadow: var(--pure-black) 3px 2px 3px;
+    font-weight: 700;
+}

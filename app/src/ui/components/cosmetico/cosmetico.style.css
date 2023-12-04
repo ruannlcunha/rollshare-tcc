@@ -1,0 +1,65 @@
+
+div section .cosmetico {
+    width: 300px;
+    background-color: var(--black-transparent);
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 3px;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+div section .cosmetico section {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div section .cosmetico section div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid var(--pure-black) 3px;
+    height: 90%;
+    width: 90%;
+}
+
+div section .cosmetico h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 600;
+    color: var(--main-green);
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    padding: 5px 0 0 0;
+    border-image-width: 3px 0 0 0;
+}
+
+div section .cosmetico footer {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div section .cosmetico footer div {
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+    font-size: 20px;
+    text-shadow: var(--pure-black) 2px 2px 3px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+div section .cosmetico footer div img {
+    height: 20px
+}
+
+div section .cosmetico footer button {
+    font-size: 20px;
+}

@@ -1,0 +1,183 @@
+
+div .perfil-info {
+    width: 30%;
+    height: 100%;
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div .perfil-info .perfil-capa {
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    border: solid var(--pure-black) 2px;
+}
+
+div .perfil-info .perfil-usuario-nomes {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 3px 2px 3px;
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-foto {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    border: solid var(--pure-black) 2px;
+}
+
+div .perfil-info .perfil-usuario-nomes section {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div .perfil-info .perfil-usuario-nomes section h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+div .perfil-info .perfil-usuario-nomes section h1 img {
+    height: 30px;
+
+}
+
+div .perfil-info .perfil-usuario-nomes section h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    text-shadow: none;
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-editar {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/editar_icon.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-editar:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-favoritar {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/coracao_icon_vazio.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-favoritado {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/coracao_icon.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-favoritado:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/coracao_icon_hover.png);
+}
+
+div .perfil-info .perfil-usuario-nomes .perfil-botao-favoritar:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/coracao_icon_hover.png);
+}
+
+div .perfil-info .perfil-usuario-infos {
+    width: 90%;
+    height: 40%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 3px 2px 3px;
+}
+
+div .perfil-info .perfil-usuario-infos label {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: text;
+    transition: all 0.3s;
+    margin-bottom: 5px;
+}
+
+div .perfil-info .perfil-usuario-infos .ver-meus-favoritos:hover {
+    color: var(--green);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+div .perfil-info .perfil-usuario-infos label img {
+    height: 50px;
+    margin: 0 10px;
+    cursor: auto;
+}
+
+div .perfil-info .perfil-opcoes {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div .perfil-info .perfil-opcoes button {
+    border: none;
+    background: none;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--green);
+    text-shadow: var(--pure-black) 3px 2px 3px;
+}
+
+div .perfil-info .perfil-opcoes button:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    filter: brightness(175%);
+    font-weight: 800;
+}
+
+div .perfil-info .perfil-opcoes img {
+    height: 30px;
+    margin: 0 10px;
+}

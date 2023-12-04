@@ -1,0 +1,71 @@
+
+div .secao-conteudos {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+div .secao-conteudos .conteudo-vazio {
+    font-size: 28px;
+    color: var(--green);
+    font-family: 'Cinzel', sans-serif;
+    text-shadow: var(--pure-black) 3px 2px 3px;
+    font-weight: 700;
+}
+
+div .secao-conteudos .paginacao {
+    margin-bottom: 10px;
+    width: 75%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    padding: 5px;
+    border-image: url(../../../assets/img/textura_pedra3.png) 52 round;
+    border-image-width: 5px;
+}
+
+div .secao-conteudos .paginacao h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: var(--green);
+}
+
+div .secao-conteudos .paginacao div {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+
+div .secao-conteudos .paginacao .conteudo-seta-esquerda {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_esquerda2.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .secao-conteudos .paginacao .conteudo-seta-esquerda:hover {
+    background-image: url(../../../assets/img/seta_esquerda_hover.png);
+    transition: all 0.3s;
+}
+
+div .secao-conteudos .paginacao .conteudo-seta-direita {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_direita2.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .secao-conteudos .paginacao .conteudo-seta-direita:hover {
+    background-image: url(../../../assets/img/seta_direita_hover.png);
+    transition: all 0.3s;
+}

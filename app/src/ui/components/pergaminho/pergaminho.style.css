@@ -1,0 +1,22 @@
+
+div .pergaminho {
+    height: 600px;
+    width: 1055px;
+    background-image: url(../../../assets/img/pergaminho.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: pergaminho-transicao 3s;
+}
+
+div section img {
+    height: 100%;
+}
+
+@keyframes pergaminho-transicao {
+    from {width: 250px;}
+    to {width: 1055px;}
+}

@@ -1,0 +1,51 @@
+
+section .categoria-ativa {
+    background-color: var(--dark-green);
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 3px;
+    border: solid 2px var(--neon-green);
+    border-radius: 5px;
+    margin: 3px;
+    color: var(--neon-green);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+section .categoria-ativa:hover {
+    transition: all 0.3s;
+    color: var(--green);
+}
+
+section .categoria {
+    background-color: var(--dark-green);
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 3px;
+    border: solid 2px var(--dark-green);
+    border-radius: 5px;
+    margin: 3px;
+    color: var(--green);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+section .categoria:hover {
+    transition: all 0.3s;
+    color: var(--neon-green);
+    border: solid 2px var(--neon-green);
+}
+
+
+section .categoria-sem-efeito {
+    background-color: var(--dark-green);
+    background: linear-gradient(90deg, var(--dark-green) 0%, var(--green) 49%, var(--dark-green) 100%);
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 3px;
+    border: solid 2px var(--pure-black);
+    border-radius: 5px;
+    margin: 3px;
+    color: var(--pure-black);
+    font-size: 16px;
+    transition: all 0.3s;
+}

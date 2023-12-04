@@ -1,0 +1,186 @@
+
+div .editar-perfil-info {
+    width: 30%;
+    height: 100%;
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div .editar-perfil-info .editar-perfil-capa {
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border: solid var(--pure-black) 2px;
+    display: flex;
+}
+
+div .editar-perfil-info .editar-perfil-capa label {
+    background-color: var(--black-transparent);
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/img/editar_icon2.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+div .editar-perfil-info .editar-perfil-capa label:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+}
+
+div .editar-perfil-info .editar-perfil-capa input {
+    width: 0;
+    height: 0;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 3px 2px 3px;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-perfil-foto {
+    height: 75px;
+    width: 80px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    border: solid var(--pure-black) 2px;
+    display: flex;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-perfil-foto label {
+    background-color: var(--black-transparent);
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-image: url(../../../assets/img/editar_icon2.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-perfil-foto label:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-perfil-foto input {
+    width: 0;
+    height: 0;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes section {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes section h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes section h1 input {
+    border: solid 2px var(--pure-black);
+    background-color: var(--black-transparent);
+    border-radius: 5px;
+    font-size: 24px;
+    width: 100%;
+    color: var(--green);
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-insignia {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px var(--pure-black);
+    border-radius: 5px;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-insignia button {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black-transparent);
+    border: none;
+    background-image: url(../../../assets/img/editar_icon2.png);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes .editar-insignia button:hover {
+    cursor: pointer;
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+    transition: all 0.3s;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes section h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    text-shadow: none;
+    display: flex;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-nomes section h3 input {
+    border: solid 2px var(--pure-black);
+    background-color: var(--black-transparent);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    color: var(--dark-grey);
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-infos {
+    width: 90%;
+    height: 40%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 3px 2px 3px;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-infos div label {
+    color: var(--green);
+}
+
+div .editar-perfil-info .editar-perfil-usuario-infos button {
+    margin: 180px 0 0 85px;
+}
+
+div .editar-perfil-info .editar-perfil-usuario-infos div input {
+    color: var(--green);
+    background-color: var(--black-transparent);
+    border: solid 2px var(--pure-black);
+}

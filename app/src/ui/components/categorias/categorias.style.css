@@ -1,0 +1,77 @@
+
+.categorias-container {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    background-image: url(../../../assets/img/textura_madeira.png);
+    background-size: contain;
+    padding: 10px;
+    border-image: url(../../../assets/img/textura_madeira.png) 30 round;
+    border-image-width: 10px;
+    box-shadow: var(--pure-black) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.categorias-container header {
+    width: 100%;
+    height: 10%;
+    background-image: url(../../../assets/img/prateleira.png);
+    background-size: cover;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--dark-grey);
+    text-shadow: var(--pure-black) 3px 3px 2px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.feed .categorias-container section {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../../../assets/img/prateleira.png);
+    background-size: cover;
+    box-shadow: var(--pure-black) 0px 20px 30px -10px;
+}
+
+.categorias-container section button {
+    width: 85%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Cinzel', sans-serif;
+    color: var(--grey);
+    text-shadow: var(--pure-black) 3px 3px 2px;
+    background-image: url(../../../assets/img/livro.png);
+    border: none;
+}
+
+.categorias-container section .escolhido {
+    width: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+    background-image: url(../../../assets/img/livro_hover.png);
+}
+
+.categorias-container section button:hover {
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../../assets/img/livro_hover.png);
+    transition: all 0.5s;
+    cursor: pointer;
+}

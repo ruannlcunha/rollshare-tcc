@@ -1,0 +1,26 @@
+
+.button-primary {
+    width: 50%;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Cinzel', sans-serif;
+    color: var(--main-green);
+    text-shadow: 3px 3px 3px var(--pure-black);
+    margin: 15px 0;
+    padding: 10px;
+    background-image: url(../../../assets/img/textura_pedra.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 3px;
+    transition: all 0.5s;
+}
+
+.button-primary:hover {
+    transition: all 0.5s;
+    filter: contrast(115%);
+    color: var(--neon-green);
+    text-shadow: 4px 4px 5px var(--main-green);
+    cursor: pointer;
+}

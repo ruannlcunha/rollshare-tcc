@@ -1,0 +1,72 @@
+.avaliacoes {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.avaliacoes .avaliacoes-vazia {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 24px;
+    animation: fadein-transicao 3s;
+}
+
+div .avaliacoes .paginacao {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+div .avaliacoes .paginacao h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: var(--black);
+}
+
+div .avaliacoes .paginacao div {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+div .avaliacoes .paginacao .conteudo-seta-esquerda {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_esquerda.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .avaliacoes .paginacao .conteudo-seta-esquerda:hover {
+    background-image: url(../../../assets/img/seta_esquerda_hover.png);
+    transition: all 0.3s;
+}
+
+div .avaliacoes .paginacao .conteudo-seta-direita {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_direita.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .avaliacoes .paginacao .conteudo-seta-direita:hover {
+    background-image: url(../../../assets/img/seta_direita_hover.png);
+    transition: all 0.3s;
+}

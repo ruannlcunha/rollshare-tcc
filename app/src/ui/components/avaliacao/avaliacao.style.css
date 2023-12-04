@@ -1,0 +1,133 @@
+
+.avaliacao {
+    width: 45%;
+    box-shadow: var(--black) 0px 20px 30px -10px;
+    border: solid 2px var(--black) double;
+    border-style: double;
+    border-radius: 5px;
+    padding: 5px;
+    animation: fadein-transicao 3s;
+    margin: 10px;
+}
+.avaliacao header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 5px 0;
+    background-size: cover;
+    border-bottom: solid 3px var(--black);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.avaliacao header .avaliacao-usuario {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-color: var(--black);
+    border: solid 2px var(--pure-black);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+div .avaliacao header section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    height: 100%;
+    margin: 0;
+    background: none;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.avaliacao header section h3 {
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.avaliacao header section h3:hover {
+    filter: brightness(150%);
+    transition: all 0.3s;
+}
+
+.avaliacao header section h3 img {
+    height: 20px;
+    margin: 0 5px 5px 2px;
+}
+
+.avaliacao header section h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.avaliacao section .nota-container {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+.avaliacao section .nota-container div {
+    background-image: url(../../../assets/img/estrela_vazia.png);
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.avaliacao section .nota-container .nota-ativa {
+    background-image: url(../../../assets/img/estrela.png);
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+}
+
+.avaliacao section label {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div .avaliacao header .avaliacao-opcoes {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+div .avaliacao header .avaliacao-opcoes button {
+    background: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    transition: all 0.3s;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+div .avaliacao header .avaliacao-opcoes .editar-avaliacao-botao {
+    background-image: url(../../../assets/img/editar_icon2.png);
+}
+
+div .avaliacao header .avaliacao-opcoes .editar-avaliacao-botao:hover {
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+    transition: all 0.3s;
+}
+
+div .avaliacao header .avaliacao-opcoes .remover-avaliacao-botao {
+    background-image: url(../../../assets/img/remover_icon2.png);
+}
+
+div .avaliacao header .avaliacao-opcoes .remover-avaliacao-botao:hover {
+    background-image: url(../../../assets/img/remover_icon_hover.png);
+    transition: all 0.3s;
+}

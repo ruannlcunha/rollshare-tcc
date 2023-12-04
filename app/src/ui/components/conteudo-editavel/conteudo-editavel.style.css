@@ -1,0 +1,156 @@
+
+.conteudo-editavel-container {
+    background-color: var(--black-transparent);
+    border: solid;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 5px;
+    border-radius: 10px;
+    background-image: url(../../../assets/img/textura_livro.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    margin: 20px 0;
+}
+
+.conteudo-editavel-container header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: solid 5px var(--main-green);
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 0 0 4px 0;
+    color: var(--green);
+}
+
+.conteudo-editavel-container header .conteudo-usuario {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-color: var(--black);
+    border: solid 2px var(--pure-black);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+div .conteudo-editavel-container header section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    background: none;
+    font-family: 'Cinzel', sans-serif;
+    cursor: auto;
+}
+
+div .conteudo-editavel-container header .conteudo-opcoes {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div .conteudo-editavel-container header .conteudo-opcoes button {
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    transition: all 0.3s;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.conteudo-editavel-container header section h3 {
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.conteudo-editavel-container header section h3:hover {
+    filter: brightness(150%);
+    transition: all 0.3s;
+}
+
+.conteudo-editavel-container header section h3 img {
+    height: 20px;
+    margin: 0 5px 5px 2px;
+}
+
+.conteudo-editavel-container header section h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+div .conteudo-editavel-container section {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div .conteudo-editavel-container section form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+}
+
+div .conteudo-editavel-container section form button {
+    width: auto;
+}
+
+.conteudo-editavel-container form textarea {
+    color: var(--pure-black);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    width: 90%;
+    height: 100px;
+    background-image: url(../../../assets/img/textura_papel_antigo.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 4px var(--pure-black);
+    font-family: 'PT Serif', sans-serif;
+}
+
+
+.conteudo-editavel-container section form textarea::placeholder {
+    font-size: 20px;
+    color: var(--black-transparent);
+}
+
+.conteudo-editavel-container section form section {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.conteudo-editavel-container section form h1 {
+    color: var(--green);
+    text-shadow: var(--pure-black) 2px 2px 3px;
+    width: 100%;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 24px;
+    margin: 5px;
+}

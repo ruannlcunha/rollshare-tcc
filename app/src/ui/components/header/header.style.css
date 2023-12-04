@@ -1,0 +1,116 @@
+
+.header-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    padding-bottom: 5px;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 0 0 5px 0;
+}
+
+.header-container .logo-button {
+    width: 60px;
+    height: 60px;
+    margin: 0 25px;
+    border: none;
+    background: none;
+    background: url(../../../assets/img/rollshare_logo2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.header-container .logo-button:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    background-image: url(../../../assets/img/rollshare_logo2_hover.png);
+}
+
+.header-container ul {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-container ul .header-loja {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-image: url(../../../assets/img/shop_icon.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.header-container ul .header-loja:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/shop_icon_hover.png);
+}
+
+.header-container ul .header-perfil {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-image: url(../../../assets/img/user_icon.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.header-container ul .header-perfil:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/user_icon_hover.png);
+}
+
+
+.header-container ul .header-denuncias {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-image: url(../../../assets/img/denuncia_icon.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.header-container ul .header-denuncias:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/denuncia_icon_hover.png);
+}
+
+.header-container form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container form img {
+    height: 60%;
+}
+
+.header-container form div label {
+    margin: 0;
+}
+
+.header-container form div input {
+    width: 95%;
+    font-size: 20px;
+    margin: 0;
+    border-radius: 5px;
+    background-color: var(--black-transparent);
+    color: var(--green);
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+}

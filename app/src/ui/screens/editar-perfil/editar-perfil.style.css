@@ -1,0 +1,34 @@
+
+.editar-perfil {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.editar-perfil .editar-perfil-fundo {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editar-perfil .editar-perfil-fundo button {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black-transparent);
+    border: none;
+    background-image: url(../../../assets/img/editar_icon2.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+.editar-perfil .editar-perfil-fundo button:hover {
+    cursor: pointer;
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+    transition: all 0.3s;
+}

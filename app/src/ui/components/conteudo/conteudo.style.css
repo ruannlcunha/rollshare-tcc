@@ -1,0 +1,233 @@
+
+.conteudo-container {
+    background-color: var(--black-transparent);
+    border: solid;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 5px;
+    border-radius: 10px;
+    width: 75%;
+    margin: 20px 0;
+    animation: fadein-transicao 3s;
+}
+
+.conteudo-container header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: solid 5px var(--main-green);
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 0 0 4px 0;
+    color: var(--green);
+}
+
+.conteudo-container header .conteudo-usuario {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-color: var(--black);
+    border: solid 2px var(--pure-black);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+div .conteudo-container header section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    background: none;
+    font-family: 'Cinzel', sans-serif;
+    cursor: auto;
+}
+
+div .conteudo-container header .conteudo-opcoes {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div .conteudo-container header .conteudo-opcoes button {
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    transition: all 0.3s;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+div .conteudo-container header .conteudo-opcoes .editar-conteudo-botao {
+    background-image: url(../../../assets/img/editar_icon.png);
+}
+
+div .conteudo-container header .conteudo-opcoes .editar-conteudo-botao:hover {
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+    transition: all 0.3s;
+}
+
+div .conteudo-container header .conteudo-opcoes .remover-conteudo-botao {
+    background-image: url(../../../assets/img/remover_icon.png);
+}
+
+div .conteudo-container header .conteudo-opcoes .remover-conteudo-botao:hover {
+    background-image: url(../../../assets/img/remover_icon_hover.png);
+    transition: all 0.3s;
+}
+
+div .conteudo-container header .conteudo-opcoes .denunciar-conteudo-botao {
+    background-image: url(../../../assets/img/denuncia_icon.png);
+    height: 50px;
+    width: 50px;
+}
+
+div .conteudo-container header .conteudo-opcoes .denunciar-conteudo-botao:hover {
+    background-image: url(../../../assets/img/denuncia_icon_hover.png);
+    transition: all 0.3s;
+}
+
+
+.conteudo-container header section h3 {
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.conteudo-container header section h3:hover {
+    filter: brightness(150%);
+    transition: all 0.3s;
+}
+
+.conteudo-container header section h3 img {
+    height: 20px;
+    margin: 0 5px 5px 2px;
+}
+
+.conteudo-container header section h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+div .conteudo-container section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../assets/img/textura_livro.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+div .conteudo-container section .conteudo-imagens {
+    background-color: var(--black-transparent);
+    height: 320px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 3px var(--pure-black);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: auto;
+}
+
+div .conteudo-container section .conteudo-imagens div {
+    width: 60px;
+    height: 60px;
+}
+
+div .conteudo-container section .conteudo-imagens .conteudo-seta-esquerda {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_esquerda.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .conteudo-container section .conteudo-imagens .conteudo-seta-esquerda:hover {
+    background-image: url(../../../assets/img/seta_esquerda_hover.png);
+    transition: all 0.3s;
+}
+
+div .conteudo-container section .conteudo-imagens .conteudo-seta-direita {
+    cursor: pointer;
+    background-image: url(../../../assets/img/seta_direita.png);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+div .conteudo-container section .conteudo-imagens .conteudo-seta-direita:hover {
+    background-image: url(../../../assets/img/seta_direita_hover.png);
+    transition: all 0.3s;
+}
+
+.conteudo-container p {
+    color: var(--pure-black);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    width: 90%;
+    background-image: url(../../../assets/img/textura_papel_antigo.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px var(--pure-black);
+    font-family: 'PT Serif', sans-serif;
+    cursor: auto;
+}
+
+div .conteudo-container section .conteudo-categorias {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+div .conteudo-container footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 0;
+    border-top: solid;
+    background-image: url(../../../assets/img/textura_pedra2.png);
+    background-size: cover;
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 4px 0 0 0;
+}
+
+div .conteudo-container footer button {
+    border: none;
+    background: none;
+    width: 40%;
+    height: 90%;
+    font-size: 20px;
+    font-family: "Cinzel", sans-serif;
+    font-weight: 600;
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/aba_pergaminho_horizontal.png);
+    background-size: cover;
+    background-position: center;
+}
+
+div .conteudo-container footer button:hover {
+    transition: all 0.3s;
+    color: var(--main-green);
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+
+.seta-voltar {
+    background: none;
+    border: none;
+    background-image: url(../../../assets/img/voltar_seta.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: all 0.3s;
+}
+
+.seta-voltar:hover {
+    transition: all 0.3s;
+    background-image: url(../../../assets/img/voltar_seta_hover.png);
+    cursor: pointer;
+    content: "oi";
+}

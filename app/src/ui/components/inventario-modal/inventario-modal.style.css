@@ -1,0 +1,36 @@
+
+.inventario-modal {
+    height: 85%;
+    width: 50%;
+    background-color: var(--black);
+    border-image: url(../../../assets/img/emerald_border.png) 27 round;
+    border-image-width: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 20px;
+    color: var(--green);
+    text-shadow: var(--pure-black) 2px 2px 3px;
+}
+
+.inventario-modal h1 {
+    margin: 15px 0;
+}
+
+.inventario-modal section {
+    height: 80%;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow-y: auto;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inventario-modal section .cosmetico {
+    width: 45%;
+    height: fit-content;
+}
